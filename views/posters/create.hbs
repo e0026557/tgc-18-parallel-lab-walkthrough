@@ -1,0 +1,14 @@
+{{#extends 'base'}}
+
+{{#block 'content'}}
+  <h1>Create new poster</h1>
+
+  <form method="post">
+    {{!-- To render form as HTML coding, use triple braces; double braces shows the HTML only --}}
+    {{{form}}}
+    <input type="submit" value="Create" class="btn btn-primary">
+  </form>
+
+{{/block}}
+
+{{/extends}}
